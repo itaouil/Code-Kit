@@ -1,9 +1,12 @@
+@import 'bourbon'
+
 *
 	margin: 0
 	padding: 0
 
 body
 	background: lightblue
+	font-family: sans-serif
 
 ul
 	list-style: none
@@ -14,3 +17,14 @@ li
 	background: white
 	padding: 10px
 	border-radius: 10px
+	margin-bottom: 10px
+	+clearfix
+	
+	img
+		border-radius: 50%
+		+size(60px, 60px)
+		float: left
+		
+	.text-container
+		float: left
+		margin-left: 10px

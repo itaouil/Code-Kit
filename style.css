@@ -5,6 +5,7 @@
 
 body {
   background: lightblue;
+  font-family: sans-serif;
 }
 
 ul {
@@ -17,4 +18,23 @@ li {
   background: white;
   padding: 10px;
   border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+li::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+li img {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  float: left;
+}
+
+li .text-container {
+  float: left;
+  margin-left: 10px;
 }
