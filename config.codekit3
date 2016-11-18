@@ -55,8 +55,14 @@
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
+		},
+	"\/vars.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vars.html",
+		"oF": 0
 		},
 	"\/vars.kit": {
 		"ft": 2048,
