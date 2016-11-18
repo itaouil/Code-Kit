@@ -8,6 +8,11 @@ body {
   font-family: sans-serif;
 }
 
+h1 {
+  width: 300px;
+  margin: 20px auto;
+}
+
 ul {
   list-style: none;
   width: 900px;
@@ -27,6 +32,15 @@ li::after {
   display: block;
 }
 
+li:nth-child(odd) .text-container, li:nth-child(odd) img {
+  float: right;
+  text-align: right;
+}
+
+li:nth-child(odd) .text-container {
+  margin-right: 10px;
+}
+
 li img {
   border-radius: 50%;
   height: 60px;
@@ -37,4 +51,8 @@ li img {
 li .text-container {
   float: left;
   margin-left: 10px;
+}
+
+li span {
+  color: #999;
 }

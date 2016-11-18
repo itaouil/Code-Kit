@@ -8,6 +8,10 @@ body
 	background: lightblue
 	font-family: sans-serif
 
+h1
+	width: 300px
+	margin: 20px auto
+
 ul
 	list-style: none
 	width: 900px
@@ -19,6 +23,14 @@ li
 	border-radius: 10px
 	margin-bottom: 10px
 	+clearfix
+
+	&:nth-child(odd)
+		.text-container, img
+			float: right	
+			text-align: right
+		
+		.text-container
+			margin-right: 10px
 	
 	img
 		border-radius: 50%
@@ -28,3 +40,6 @@ li
 	.text-container
 		float: left
 		margin-left: 10px
+		
+	span
+		color: #999
