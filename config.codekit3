@@ -21,6 +21,14 @@
 		"oAP": "\/Code-Kit.esproj\/user.dailand10.espressostorage",
 		"oF": 0
 		},
+	"\/kitVariables.png": {
+		"ft": 32768,
+		"iS": 288107,
+		"oA": 0,
+		"oAP": "\/kitVariables.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/LICENSE": {
 		"ft": 8192,
 		"oA": 2,
@@ -44,6 +52,16 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/style-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/style.sass": {
 		"aP": 0,
